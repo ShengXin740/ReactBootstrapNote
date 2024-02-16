@@ -28,7 +28,7 @@ const NavBarExample = (props) => {
         }
     }
     return (
-        <NavBar expand='lg' bg='primary' data-bs-theme='dark' className='mb-4'>
+        <NavBar expand='lg' className='mb-4 border round' style={{ boxShadow: "0px 8px 15px -6px rgba(0,0,0,0.6)", backgroundColor: 'lightgray' }}>
             <Container  >
 
                 <NavBar.Brand href='#home' onClick={() => {
@@ -60,10 +60,11 @@ const NavBarExample = (props) => {
                     <Modal.Title>Waiting for your fob ...</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Form.Control onChange={(e) => handleLogin(e)} autoFocus style={{ opacity: '10%' }} />
+                    <Form.Control onChange={(e) => handleLogin(e)} autoFocus style={{ opacity: '50%' }} />
                 </Modal.Body>
 
             </Modal>
+            <hr />
         </NavBar >
     )
 }
