@@ -6,6 +6,10 @@ import VariantsExample from "./Components/VariantsExample";
 import ColorMode from "./Components/ColorMode";
 import ContainerExample from "./Components/ContainerExample";
 import StackExample from "./Components/StackExample";
+import FormsExample from "./Components/FormsExample";
+import AccordionExample from "./Components/AccordionExample";
+import AlertExample from "./Components/AlertExample";
+import LoadingButton from "./Components/LoadingButton";
 
 function App() {
   return (
@@ -23,7 +27,16 @@ function App() {
       <ContainerExample />
       <hr />
       <StackExample />
+      <hr />
+      <FormsExample />
+      <hr />
+      <AccordionExample />
+      <hr />
+      <AlertExample />
+      <hr />
+      <LoadingButton />
     </div>
+    
   );
 }
 
